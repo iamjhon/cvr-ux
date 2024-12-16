@@ -1,0 +1,306 @@
+{% set title = 'DataTable' %}
+{% set filename = 'table-datatable.html' %}
+
+{% extends 'src/layouts/master.html' %}
+{% block content %}
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>CVR Sign</h3>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">DataTable</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+       
+        <div class="col-12 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">of Upload a CVR Sign</h5>
+                </div>
+                <div class="card-content">
+                    <div class="card-body">
+                        <p class="card-text">Using the basic table up, upload here to see how
+                            <code>.multiple-files-filepond</code>-based basic file uploader look. You can use
+                            <code>allowMultiple</code> or <code>multiple</code> attribute too to implement multiple
+                            upload.
+                        </p>
+                        <!-- File uploader with multiple files upload -->
+                        <input type="file" class="multiple-files-filepond" multiple>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+          
+            <div class="card-body">
+                <table class="table table-striped" id="table1">
+                    <thead>
+                        <tr>
+                            
+                            <th>File Name</th>
+                            <th>Subject</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf fa-lg" style="color: #2598b9;"></i> Jhonatan-Castillo-Compensation-signature.pdf</td>
+                            <td>Test Subject</td>
+                            <td><a href="#" class="badge bg-success">Signed</a></td>
+                            <td><i class="fa-solid fa-trash"></i> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-sharp fa-solid fa-share"></i></td>
+                            <td>
+                                <a href="#" class="btn btn-sm  icon btn-primary"><i class="fa-solid fa-download"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+</div>
+{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="assets/extensions/simple-datatables/style.css">
+<link rel="stylesheet" href="assets/scss/pages/simple-datatables.scss">
+{% endblock %}
+{% block js %}
+<script src="assets/extensions/simple-datatables/umd/simple-datatables.js"></script>
+<script src="assets/static/js/pages/simple-datatables.js"></script>
+{% endblock %}

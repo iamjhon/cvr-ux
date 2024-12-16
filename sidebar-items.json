@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Menu",
+    "isTitle": true
+  },
+
+  {
+    "name": "Petitioner Attorneys",
+    "url": "petitioner-attorneys.html",
+    "icon": "grid-fill"
+  },
+  {
+    "name": "CVR Services",
+    "key": "component",
+    "icon": "briefcase",
+    "submenu": [
+      {
+        "name": "Memberships",
+        "url": "memberships.html"
+      },
+      {
+        "name": "Products",
+        "url": "products.html"
+      }
+    ]
+    },
+    {
+      "name": "CVR Databases",
+      "url": "valueacase.html",
+      "icon": "database"
+    },
+
+    {
+      "name": "CVR Sign",
+      "url": "cvr-sign.html",
+      "icon": "pencil-square"
+    }
+
+]

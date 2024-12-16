@@ -1,0 +1,190 @@
+{% set title = 'Petitioner Attorneys' %}
+{% set filename = 'petitioner-attorneys.html' %}
+
+{% extends 'src/layouts/master.html' %}
+
+{% block styles %}
+<!-- Add custom styles specific to this page, if any -->
+<link rel="stylesheet" href="/assets/scss/custom-styles.scss">
+{% endblock %}
+
+
+{% block content %}
+<div class="main-content">
+    <div class="page-heading">
+        <div class="alert alert-warning alert-dismissible fade show justify-content-between" role="alert">
+            <strong>WARNING!</strong>
+            You do not have an active bio. — In order to be included as a Consultation Attorney in our CVR's, you will to complete your Bio. 
+            <a href="#" class="btn btn-sm btn-warning btn-dark">ADD BIO NOW</a>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <h3>Petitioner's Attorney</h3>
+    </div>
+    <div class="page-content">
+        <section class="row">
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body px-4 py-4-5">
+                                <div class="row">
+                                    <div class="col-md-1 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
+                                        
+                                        <div class="img-icon mb-2">
+                                            <img src="assets/static/images/icons/cvr-icon1.png" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-lg-12 col-xl-12 col-xxl-9 justify-content-start">
+                                        <h5 class="font-extrabold mb-0">Case Valuation Report</h5>
+                                        <p class="card-text ">Quickly calculate workers’ comp benefits and get detailed formulas</p>
+                                        <a href="#" class="card-link">Start a New CVR</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>  
+                    <div class="col-12 col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body px-4 py-4-5">
+                                <div class="row">
+                                    <div class="col-md-1 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
+                                        <div class="img-icon mb-2">
+                                            <img src="assets/static/images/icons/quick-calculator.png" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-lg-12 col-xl-12 col-xxl-9 justify-content-start">
+                                        <h5 class="font-extrabold mb-0">Quick Calculator</h5>
+                                        <p class="card-text ">Quickly calculate workers’ comp benefits and get detailed formulas</p>
+                                        <a href="#" class="card-link">Start Using Calculator</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body px-4 py-4-5">
+                                <div class="row">
+                                    <div class="col-md-1 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
+                                        <div class="img-icon mb-2">
+                                            <img src="assets/static/images/icons/cvr-sign-icon.png" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-lg-12 col-xl-12 col-xxl-9 justify-content-start">
+                                        <h5 class="font-extrabold mb-0">CVR Sign</h5>
+                                        <p class="card-text ">Quickly calculate workers’ comp benefits and get detailed formulas</p>
+                                        <a href="#" class="card-link">Start Using Calculator</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-body px-4 py-4-5">
+                                <div class="row">
+                                    <div class="col-md-1 col-lg-12 col-xl-12 col-xxl-3 d-flex justify-content-start ">
+                                        <div class="img-icon mb-2">
+                                            <img src="assets/static/images/icons/miles.png" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-lg-12 col-xl-12 col-xxl-9 justify-content-start">
+                                        <h5 class="font-extrabold mb-0">Miles Calculator</h5>
+                                        <p class="card-text ">Quickly calculate workers’ comp benefits and get detailed formulas</p>
+                                        <a href="#" class="card-link">Start Using Calculator</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="card-content">
+                                <img class="card-img-top img-fluid" src="assets/static/images/dashboard/cheat-sheet-2.jpg" alt="Card image cap" style="height: 20rem;">
+                                <div class="card-body">
+                                    <h4 class="card-title">CVR Cheat Sheet</h4>
+                                    <p class="card-text">
+                                        Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut
+                                        pastry gummies tiramisu chocolate bar muffin. Dessert bonbon caramels brownie chocolate
+                                        bar
+                                        chocolate tart dragée.
+                                    </p>
+                                    <p class="card-text">
+                                        Cupcake fruitcake macaroon donut pastry gummies tiramisu chocolate bar muffin.
+                                    </p>
+                                    <button class="btn btn-primary block">Use Quick Calculator</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+                
+            </div>
+                                <!-- MY CVR BIOS START -->
+                                <div class="col-12 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4>My CVR Bios</h4>
+                                        </div>
+                                        <div class="card-content pb-4">
+                                            <div class="recent-message d-flex px-4 py-3">
+                                                <div class="avatar avatar-lg bg-primary me-3">
+                                                    <span class="avatar-content"><i class="fa-duotone fa-light fa-file"></i></span>
+                                                </div>
+                                                <div class="name ms-4">
+                                                    <h5 class="mb-1">Martinez Case Valuation</h5>
+                                                    <h6 class="text-muted mb-0">12/12/2022</h6>
+                                                </div>
+                                            </div>
+                                            <div class="recent-message d-flex px-4 py-3">
+                                                <div class="avatar avatar-lg bg-primary me-3">
+                                                    <span class="avatar-content"><i class="fa-duotone fa-light fa-file"></i></span>
+                                                </div>
+                                                <div class="name ms-4">
+                                                    <h5 class="mb-1">Dean Winchester</h5>
+                                                    <h6 class="text-muted mb-0">12/12/2022</h6>
+                                                </div>
+                                            </div>
+                                            <div class="recent-message d-flex px-4 py-3">
+                                                <div class="avatar avatar-lg bg-primary me-3">
+                                                    <span class="avatar-content"><i class="fa-duotone fa-light fa-file"></i></span>
+                                                </div>
+                                                <div class="name ms-4">
+                                                    <h5 class="mb-1">John Dodol</h5>
+                                                    <h6 class="text-muted mb-0">12/12/2022</h6>
+                                                </div>
+                                            </div>
+                                            <div class="px-4">
+                                                <button class="btn btn-block btn-xl btn-outline-primary font-bold mt-3">View All CVR Bios</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-0">How to CVR</h4>
+                                            </div>
+                                            <div class="embed-responsive embed-responsive-item embed-responsive-16by9 w-100">
+                                                <iframe src="https://www.youtube.com/embed/iQeObnXu69w" style="width:100%" height="300" allowfullscreen=""></iframe>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    Master our CVR tool in minutes
+                                                </p>
+                                                <a href="#" class="card-link">Create your own CVR</a>
+                                                <a href="#" class="card-link">View more resources</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        </section>
+    </div>
+
+
+</div>
+
+
+{% endblock %}
